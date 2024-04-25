@@ -16,7 +16,6 @@ public class Employee implements Serializable {
     private String username;
 
     private String name;
-
     private String password;
 
     private String phone;
@@ -36,5 +35,6 @@ public class Employee implements Serializable {
 
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Long updateUser;
+
 
 }
